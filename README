@@ -1,9 +1,17 @@
 ========================================================================================================================
-Spring in Practice, Chapter 3
+README - Spring in Practice Recipe 3.2
 
-Copyright (c) 2008-2012 Manning Publications Co.
+Copyright (c) 2013 Manning Publications Co.
 
-Willie Wheeler (willie.wheeler@gmail.com)
+Joshua White
+
+Book: http://manning.com/wheeler/
+Blog: http://springinpractice.com/
+Code: https://github.com/springinpractice
 ========================================================================================================================
 
-This chapter shows how to build web applications using Spring Web MVC   
+This chapter shows how to build web applications using Spring Web MVC.
+
+Please use the following URL to access the app:
+
+  http://localhost:8080/sip/main/roster/list.do
