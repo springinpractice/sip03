@@ -1,3 +1,10 @@
+/* 
+ * Copyright (c) 2013 Manning Publications Co.
+ * 
+ * Book: http://manning.com/wheeler/
+ * Blog: http://springinpractice.com/
+ * Code: https://github.com/springinpractice
+ */
 package com.springinpractice.ch03.web;
 
 import java.util.ArrayList;
@@ -11,7 +18,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.springinpractice.ch03.model.Contact;
 
-
+/**
+ * @author Joshua White
+ */
 @Controller
 @RequestMapping("/contact")
 public final class ContactController {

@@ -1,3 +1,10 @@
+/* 
+ * Copyright (c) 2013 Manning Publications Co.
+ * 
+ * Book: http://manning.com/wheeler/
+ * Blog: http://springinpractice.com/
+ * Code: https://github.com/springinpractice
+ */
 package com.springinpractice.ch03.view;
 
 import java.util.List;
@@ -19,6 +26,9 @@ import org.springframework.web.servlet.ViewResolver;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
+/**
+ * @author Joshua White
+ */
 public class SitePreferenceDelegatingViewResolver extends WebApplicationObjectSupport implements ViewResolver, Ordered, InitializingBean {
 
 	private static final Log logger = LogFactory.getLog(SitePreferenceDelegatingViewResolver.class);
